@@ -20,5 +20,15 @@
     <?php 
     echo nl2br($str);
     ?>
+
+    <?php
+    function sum($left, $right) {
+        print($left + $right);
+        print("<br>");
+    }
+    sum(2, 5);
+    sum(10, 5);
+    ?>
+
 </body>
 </html>
