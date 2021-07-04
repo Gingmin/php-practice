@@ -1,4 +1,4 @@
 <?php
-unlink('data/'.$_GET['id']);
-header('Location: /index.php');
+unlink('data/'.basename($_POST['id']));
+header('Location: index.php');
 ?>
